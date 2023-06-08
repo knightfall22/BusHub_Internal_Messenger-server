@@ -29,7 +29,7 @@ This Node.js server is built for an internal messaging system. It performs authe
 
 3. Authentication:
 
-- Make a POST request to `http://localhost:3000/auth` with a JSON payload containing the `user_id`.
+- Make a POST request to `http://localhost:3000/auth` the required JSON payload containing for the Auth path you wish to send a request to.
 - The server will generate a user token using GetStream and return it in the response.
 
 4. Sending messages:
